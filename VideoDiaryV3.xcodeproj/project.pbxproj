@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		050DD7241BFBC34E006B3944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050DD7231BFBC34E006B3944 /* AppDelegate.swift */; };
-		050DD7261BFBC354006B3944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050DD7251BFBC354006B3944 /* ViewController.swift */; };
 		050DD7291BFBC354006B3944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050DD7271BFBC354006B3944 /* Main.storyboard */; };
 		050DD72C1BFBC354006B3944 /* VideoDiaryV3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 050DD72A1BFBC354006B3944 /* VideoDiaryV3.xcdatamodeld */; };
 		050DD72E1BFBC354006B3944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050DD72D1BFBC354006B3944 /* Assets.xcassets */; };
 		050DD7311BFBC354006B3944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050DD72F1BFBC354006B3944 /* LaunchScreen.storyboard */; };
+		050DD7391BFBC430006B3944 /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050DD7381BFBC430006B3944 /* VideoTableViewController.swift */; };
+		050DD73B1BFBC9CC006B3944 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050DD73A1BFBC9CC006B3944 /* VideoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		050DD7201BFBC34E006B3944 /* VideoDiaryV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoDiaryV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		050DD7231BFBC34E006B3944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		050DD7251BFBC354006B3944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		050DD7281BFBC354006B3944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		050DD72B1BFBC354006B3944 /* VideoDiaryV3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoDiaryV3.xcdatamodel; sourceTree = "<group>"; };
 		050DD72D1BFBC354006B3944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		050DD7301BFBC354006B3944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		050DD7321BFBC354006B3944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		050DD7381BFBC430006B3944 /* VideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
+		050DD73A1BFBC9CC006B3944 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				050DD7231BFBC34E006B3944 /* AppDelegate.swift */,
-				050DD7251BFBC354006B3944 /* ViewController.swift */,
 				050DD7271BFBC354006B3944 /* Main.storyboard */,
+				050DD73A1BFBC9CC006B3944 /* VideoTableViewCell.swift */,
+				050DD7381BFBC430006B3944 /* VideoTableViewController.swift */,
 				050DD72D1BFBC354006B3944 /* Assets.xcassets */,
 				050DD72F1BFBC354006B3944 /* LaunchScreen.storyboard */,
 				050DD7321BFBC354006B3944 /* Info.plist */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				050DD7261BFBC354006B3944 /* ViewController.swift in Sources */,
 				050DD7241BFBC34E006B3944 /* AppDelegate.swift in Sources */,
+				050DD73B1BFBC9CC006B3944 /* VideoTableViewCell.swift in Sources */,
+				050DD7391BFBC430006B3944 /* VideoTableViewController.swift in Sources */,
 				050DD72C1BFBC354006B3944 /* VideoDiaryV3.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
